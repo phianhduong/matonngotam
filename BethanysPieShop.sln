@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{043FF5C7-3A0A-4A28-8207-F3489AACCB98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7DF62EC6-BBD4-413E-B7E1-4F64F8B5B206}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BethanysPieShop", "src\BethanysPieShop\BethanysPieShop.xproj", "{9BA528C4-899D-4785-8C86-E84E7AFA6544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{6EA02146-0724-454E-A9E8-F8DBD8B8756E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCodeCamp.Data", "src\WebAPI\MyCodeCamp.Data\MyCodeCamp.Data.xproj", "{27499CF7-2060-4F57-9166-9A2468674626}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebAPI", "WebAPI\WebAPI.xproj", "{14EE6DEA-2D5D-4AF3-AB8F-29032931C02E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA528C4-899D-4785-8C86-E84E7AFA6544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA528C4-899D-4785-8C86-E84E7AFA6544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA528C4-899D-4785-8C86-E84E7AFA6544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA528C4-899D-4785-8C86-E84E7AFA6544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA02146-0724-454E-A9E8-F8DBD8B8756E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA02146-0724-454E-A9E8-F8DBD8B8756E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA02146-0724-454E-A9E8-F8DBD8B8756E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA02146-0724-454E-A9E8-F8DBD8B8756E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27499CF7-2060-4F57-9166-9A2468674626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27499CF7-2060-4F57-9166-9A2468674626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27499CF7-2060-4F57-9166-9A2468674626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27499CF7-2060-4F57-9166-9A2468674626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14EE6DEA-2D5D-4AF3-AB8F-29032931C02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14EE6DEA-2D5D-4AF3-AB8F-29032931C02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14EE6DEA-2D5D-4AF3-AB8F-29032931C02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14EE6DEA-2D5D-4AF3-AB8F-29032931C02E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BA528C4-899D-4785-8C86-E84E7AFA6544} = {043FF5C7-3A0A-4A28-8207-F3489AACCB98}
+		{14EE6DEA-2D5D-4AF3-AB8F-29032931C02E} = {043FF5C7-3A0A-4A28-8207-F3489AACCB98}
+	EndGlobalSection
+EndGlobal
